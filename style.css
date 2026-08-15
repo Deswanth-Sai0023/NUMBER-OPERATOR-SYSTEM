@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    margin: 3rem;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.cls{
+   border-radius: 50px;
+}
+.cls button{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0px orange;
+    transition: 200ms;
+}
+#inc{
+    color: green;
+}
+#inc:hover{
+     box-shadow: 0px 2px 4px 0px rgb(153, 255, 0);
+     font-weight: 600;
+     padding: 2rem;
+}
+#reset:hover{
+     box-shadow: 0px 2px 4px 0px rgb(230, 255, 9);
+     padding: 2rem;
+    font-weight: 900;
+}
+#dec:hover{
+     box-shadow: 0px 2px 4px 0px rgb(233, 4, 8);
+     padding: 2rem;
+     font-weight: 900;
+}
+#reset{
+    color: #ffff00;
+}
+#dec{
+    color: red;
+}
+.cls button:hover{
+    box-shadow: 0px 2px 4px 0px rgb(222, 5, 5);
+}
+
+h3{
+    margin-top: 5rem;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enter{
+    color: rgb(52, 105, 87);
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.box input{
+    cursor: pointer;
+}
